@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研绘图与 Illustrator 拼版"
+  short_description: "按科学问题和数据结构选图，输出适合 Illustrator 拼版的可编辑科研面板"
+  default_prompt: "用 $paper-figure 根据我的数据和要展示的内容选择图型，输出 Arial 8 pt 的可编辑面板。"

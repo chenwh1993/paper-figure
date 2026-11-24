@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Chen-Response",
+    "paper": "Chen et al. · Cancer Cell 2024",
+    "panel": "Fig. 1F",
+    "type": "离散分组",
+    "method": "代码原值",
+    "note": "治疗反应类别。组名按图中横轴对照，形状另编码 MSI。",
+    "colors": [
+      [
+        "CR",
+        "#5778A2"
+      ],
+      [
+        "PR",
+        "#DCB44B"
+      ],
+      [
+        "SD",
+        "#8A281E"
+      ]
+    ],
+    "url": "https://github.com/yqq-chen/CRC_ICB/blob/cc186b2881a3104f62e0729b036971e6991528b7/Figure1.R#L93",
+    "paper_url": "https://doi.org/10.1016/j.ccell.2024.06.009"
+  },
+  {
+    "id": "Chen-Volcano",
+    "paper": "Chen et al. · Cancer Cell 2024",
+    "panel": "Fig. 6E",
+    "type": "高亮与背景",
+    "method": "代码原值",
+    "note": "同时满足效应和校正后显著性条件的点高亮。是否显著不等同于上调或下调。",
+    "colors": [
+      [
+        "背景",
+        "#BEBEBE"
+      ],
+      [
+        "显著",
+        "#BD4739"
+      ]
+    ],
+    "url": "https://github.com/yqq-chen/CRC_ICB/blob/cc186b2881a3104f62e0729b036971e6991528b7/Figure6.R#L171",
+    "paper_url": "https://doi.org/10.1016/j.ccell.2024.06.009"
+  },
+  {
+    "id": "Chen-UMAP",
+    "paper": "Chen et al. · Cancer Cell 2024",
+    "panel": "Fig. 6C 右",
+    "type": "高亮与背景",
+    "method": "代码原值",
+    "note": "同一嵌入上突出目标细胞。代码点层 alpha=0.5，图面颜色会比基础色浅。",
+    "colors": [
+      [
+        "其他细胞",
+        "#D3D3D3"
+      ],
+      [
+        "目标细胞",
+        "#8A281E"
+      ]
+    ],
+    "url": "https://github.com/yqq-chen/CRC_ICB/blob/cc186b2881a3104f62e0729b036971e6991528b7/Figure6.R#L113",
+    "paper_url": "https://doi.org/10.1016/j.ccell.2024.06.009"
+  },
+  {
+    "id": "Chen-Lineages",
+    "paper": "Chen et al. · Cancer Cell 2024",
+    "panel": "Fig. 1E",
+    "type": "离散分组",
+    "method": "图面取样",
+    "note": "在六个大类的图例标题色块中心取样。细亚群在原图另有颜色。",
+    "colors": [
+      [
+        "T cell",
+        "#B6454E"
+      ],
+      [
+        "Innate lymphoid",
+        "#F68F35"
+      ],
+      [
+        "B cell",
+        "#7FC6E1"
+      ],
+      [
+        "Myeloid",
+        "#2888B6"
+      ],
+      [
+        "Stromal",
+        "#8467AC"
+      ],
+      [
+        "Epithelial",
+        "#B49AC9"
+      ]
+    ],
+    "url": "https://doi.org/10.1016/j.ccell.2024.06.009",
+    "paper_url": "https://doi.org/10.1016/j.ccell.2024.06.009"
+  },
+  {
+    "id": "Visium-Regions",
+    "paper": "Oliveira et al. · Nature Genetics 2025",
+    "panel": "Fig. 4a",
+    "type": "区域与背景",
+    "method": "代码原值",
+    "note": "组织切片和放大窗使用同一分区色。R 命名色按 col2rgb 转换。",
+    "colors": [
+      [
+        "周边 50 µm",
+        "#1E90FF"
+      ],
+      [
+        "其余组织",
+        "#D3D3D3"
+      ],
+      [
+        "肿瘤",
+        "#FF3030"
+      ]
+    ],
+    "url": "https://github.com/10XGenomics/HumanColonCancer_VisiumHD/blob/df5801cf5e681b33b5026626989a7635fdf26b99/Figures/Figure_4.R#L99",
+    "paper_url": "https://doi.org/10.1038/s41588-025-02193-3"
+  },
+  {
+    "id": "Yu-CopyNumber",
+    "paper": "Yu et al. · Cancer Discovery 2026",
+    "panel": "Fig. 2A–C",
+    "type": "有中心的连续量",
+    "method": "代码原值",
+    "note": "作者在 0.93、1.00、1.07 三处设色，白色以拷贝数中性值 1 为基准。",
+    "colors": [
+      [
+        "0.93",
+        "#377EB8"
+      ],
+      [
+        "1.00",
+        "#FFFFFF"
+      ],
+      [
+        "1.07",
+        "#E41A1C"
+      ]
+    ],
+    "url": "https://github.com/VividKai/SpatialBC/blob/f854197edb9730a9fc215ce1022a44474446f99c/Fig2.R#L305",
+    "paper_url": "https://doi.org/10.1158/2159-8290.CD-26-0099"
+  },
+  {
+    "id": "Yu-Pseudotime",
+    "paper": "Yu et al. · Cancer Discovery 2026",
+    "panel": "Fig. 2A–C",
+    "type": "顺序渐变",
+    "method": "代码原值",
+    "note": "拟时序由浅灰到蓝。渐变描述模型排序，不能赋予真实时间单位。",
+    "colors": [
+      [
+        "低",
+        "#E5E5E5"
+      ],
+      [
+        "2",
+        "#C6D9F0"
+      ],
+      [
+        "3",
+        "#9BBCE1"
+      ],
+      [
+        "4",
+        "#709FD2"
+      ],
+      [
+        "5",
+        "#4582C3"
+      ],
+      [
+        "高",
+        "#1A65B4"
+      ]
+    ],
+    "url": "https://github.com/VividKai/SpatialBC/blob/f854197edb9730a9fc215ce1022a44474446f99c/Fig2.R#L236",
+    "paper_url": "https://doi.org/10.1158/2159-8290.CD-26-0099"
+  },
+  {
+    "id": "Yu-BasalScore",
+    "paper": "Yu et al. · Cancer Discovery 2026",
+    "panel": "Fig. 2A–C",
+    "type": "顺序渐变",
+    "method": "代码原值",
+    "note": "Basal signature 得分用灰到粉的渐变。多个样本比较时应说明各自与共同色域的选择。",
+    "colors": [
+      [
+        "低",
+        "#E5E5E5"
+      ],
+      [
+        "2",
+        "#E6CDDA"
+      ],
+      [
+        "3",
+        "#E7B6CF"
+      ],
+      [
+        "4",
+        "#E89FC4"
+      ],
+      [
+        "5",
+        "#E988B9"
+      ],
+      [
+        "高",
+        "#EA71AE"
+      ]
+    ],
+    "url": "https://github.com/VividKai/SpatialBC/blob/f854197edb9730a9fc215ce1022a44474446f99c/Fig2.R#L246",
+    "paper_url": "https://doi.org/10.1158/2159-8290.CD-26-0099"
+  },
+  {
+    "id": "Yu-LuminalScore",
+    "paper": "Yu et al. · Cancer Discovery 2026",
+    "panel": "Fig. 2A–C",
+    "type": "顺序渐变",
+    "method": "代码原值",
+    "note": "Luminal signature 得分用灰到绿。两种基因程序在相邻面板用不同色相。",
+    "colors": [
+      [
+        "低",
+        "#E5E5E5"
+      ],
+      [
+        "2",
+        "#BBD3BF"
+      ],
+      [
+        "3",
+        "#91C299"
+      ],
+      [
+        "4",
+        "#67B173"
+      ],
+      [
+        "5",
+        "#3DA04D"
+      ],
+      [
+        "高",
+        "#148F28"
+      ]
+    ],
+    "url": "https://github.com/VividKai/SpatialBC/blob/f854197edb9730a9fc215ce1022a44474446f99c/Fig2.R#L251",
+    "paper_url": "https://doi.org/10.1158/2159-8290.CD-26-0099"
+  },
+  {
+    "id": "Yu-Lineages",
+    "paper": "Yu et al. · Cancer Discovery 2026",
+    "panel": "Fig. 2D",
+    "type": "配对类别",
+    "method": "代码原值",
+    "note": "Basal 与 Luminal 可加文字或形状区分，配对关系用中性色连线。",
+    "colors": [
+      [
+        "Basal",
+        "#EA71AE"
+      ],
+      [
+        "Luminal",
+        "#148F28"
+      ]
+    ],
+    "url": "https://github.com/VividKai/SpatialBC/blob/f854197edb9730a9fc215ce1022a44474446f99c/Fig2.R#L571",
+    "paper_url": "https://doi.org/10.1158/2159-8290.CD-26-0099"
+  },
+  {
+    "id": "Aung-StromaHR",
+    "paper": "Aung et al. · Nature Genetics 2025",
+    "panel": "Fig. 3c",
+    "type": "估计值与区间",
+    "method": "代码原值",
+    "note": "间质森林图的点估计、区间和基准线。",
+    "colors": [
+      [
+        "点估计",
+        "#EEA2AD"
+      ],
+      [
+        "区间和基准线",
+        "#000000"
+      ]
+    ],
+    "url": "https://github.com/tznaung/NSCLC_SpatialOmics/blob/7cb78392967696fc5a6ec44d05e687a11052f94f/scripts/Univariable_cellFract_survival_forestPlot_Stroma.R#L33",
+    "paper_url": "https://doi.org/10.1038/s41588-025-02351-7"
+  },
+  {
+    "id": "Aung-TumorKM",
+    "paper": "Aung et al. · Nature Genetics 2025",
+    "panel": "Fig. 3d",
+    "type": "二组随访",
+    "method": "图面取样",
+    "note": "在该面板图例的两段线中取样。颜色表示分层，曲线的方向由数据决定。",
+    "colors": [
+      [
+        "Low",
+        "#0B4F8F"
+      ],
+      [
+        "High",
+        "#E72333"
+      ]
+    ],
+    "url": "https://doi.org/10.1038/s41588-025-02351-7",
+    "paper_url": "https://doi.org/10.1038/s41588-025-02351-7"
+  },
+  {
+    "id": "Aung-StromaKM",
+    "paper": "Aung et al. · Nature Genetics 2025",
+    "panel": "Fig. 3g",
+    "type": "二组随访",
+    "method": "图面取样",
+    "note": "间质面板用另一种高组色，勿与肿瘤面板的图例混用。",
+    "colors": [
+      [
+        "Low",
+        "#006FB4"
+      ],
+      [
+        "High",
+        "#E9BC26"
+      ]
+    ],
+    "url": "https://doi.org/10.1038/s41588-025-02351-7",
+    "paper_url": "https://doi.org/10.1038/s41588-025-02351-7"
+  },
+  {
+    "id": "Milo-Benchmark",
+    "paper": "Dann et al. · Nature Biotechnology 2022",
+    "panel": "Fig. 2c、2e",
+    "type": "方法类别",
+    "method": "代码原值",
+    "note": "脚本从 RColorBrewer Dark2 中取色并具名。此处列发表图显示的四个方法。",
+    "colors": [
+      [
+        "Cydar",
+        "#E6AB02"
+      ],
+      [
+        "DAseq",
+        "#D95F02"
+      ],
+      [
+        "Louvain",
+        "#E7298A"
+      ],
+      [
+        "Milo",
+        "#1B9E77"
+      ]
+    ],
+    "url": "https://github.com/MarioniLab/milo_analysis_2020/blob/99c1c1ce858fc39fd6c4033d4a17348f610d18d1/benchmark/Fig2_benchmark_results.Rmd#L32",
+    "paper_url": "https://doi.org/10.1038/s41587-021-01033-z"
+  },
+  {
+    "id": "brain-imc-channels",
+    "paper": "Single-cell spatial immune landscapes of primary and metastatic brain tumours",
+    "panel": "Fig. 1b · PDF p.2",
+    "type": "空间多重成像通道",
+    "method": "图面取样",
+    "note": "原论文把脑组织的多个成像通道和癌细胞标签配在黑底合成图旁。七个图例标签均可明确区分。 BrM-margin 合成视野右侧七个方块。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "Ki67",
+        "#FFB600"
+      ],
+      [
+        "GFAP",
+        "#E2C79B"
+      ],
+      [
+        "CD31",
+        "#00B761"
+      ],
+      [
+        "CD68",
+        "#9337FF"
+      ],
+      [
+        "MPO",
+        "#FF2500"
+      ],
+      [
+        "CD3",
+        "#FFFF03"
+      ],
+      [
+        "Cancer（癌细胞）",
+        "#DCDCDC"
+      ]
+    ],
+    "url": "https://doi.org/10.1038/s41586-022-05680-3",
+    "paper_url": "https://doi.org/10.1038/s41586-022-05680-3",
+    "local": "L219",
+    "local_path": "s41586-022-05680-3.pdf"
+  },
+  {
+    "id": "tam-neighbour-volcano",
+    "paper": "A constitutive interferon-high immunophenotype defines response to immunotherapy in colorectal cancer",
+    "panel": "Fig. 4B · PDF p.8",
+    "type": "空间邻近分组后的差异火山图",
+    "method": "图面取样",
+    "note": "两档绿分别表示邻近T细胞的TAM中上调与下调，灰色保留未显著的背景点。两个方向还可由横轴位置分辨。 B面板横轴下方三行图例圆点。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "邻近T细胞的TAM中上调",
+        "#00B500"
+      ],
+      [
+        "邻近T细胞的TAM中下调",
+        "#1E5B1F"
+      ],
+      [
+        "未显著",
+        "#BABABA"
+      ]
+    ],
+    "url": "https://doi.org/10.1016/j.ccell.2024.12.008",
+    "paper_url": "https://doi.org/10.1016/j.ccell.2024.12.008",
+    "local": "L072",
+    "local_path": "BLCA/A constitutive interferon-high immunophenotype defines response to immunotherapy in colorectal cancer(科研通-ablesci.com).pdf"
+  },
+  {
+    "id": "blca-oncoprint-variants",
+    "paper": "Prognostic value of GARS in bladder cancer and its role in the tumor microenvironment",
+    "panel": "Fig. 4B · PDF p.11",
+    "type": "突变瀑布图 / OncoPrint",
+    "method": "图面取样",
+    "note": "同一个样本×基因格子按变异类型查色，底部分组条使用自己的图例。 B面板样本条下方两列变异类型方块，依次读取左列四格及中列三格。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "Missense_Mutation",
+        "#33A02C"
+      ],
+      [
+        "Nonsense_Mutation",
+        "#E31A1C"
+      ],
+      [
+        "Splice_Site",
+        "#FF7F00"
+      ],
+      [
+        "Frame_Shift_Ins",
+        "#6A3D9A"
+      ],
+      [
+        "Frame_Shift_Del",
+        "#1F78B4"
+      ],
+      [
+        "In_Frame_Del",
+        "#FFFF99"
+      ],
+      [
+        "Multi_Hit",
+        "#000000"
+      ]
+    ],
+    "url": "https://doi.org/10.21037/tcr-23-2148",
+    "paper_url": "https://doi.org/10.21037/tcr-23-2148",
+    "local": "L070",
+    "local_path": "BLCA-scRNA-seq/tcr-13-06-2825.pdf"
+  },
+  {
+    "id": "spatial-dsp-roi",
+    "paper": "Spatial Relationships in the Tumor Microenvironment Demonstrate Association with Pathologic Response to Neoadjuvant Chemoimmunotherapy in Muscle-invasive Bladder Cancer",
+    "panel": "Fig. 1A · PDF p.4",
+    "type": "空间分析取样区域 / 掩膜",
+    "method": "图面取样",
+    "note": "同类区域在轮廓、箭头及标签间保持一致。肿瘤和免疫取样各有富集区与交界区。 A面板右侧指向TX和IX标签的粗箭线，取实心线条的直线段内部。与TE、IE同色对应。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "TE / TX（肿瘤富集区 / 交界肿瘤区）",
+        "#46FF0E"
+      ],
+      [
+        "IE / IX（免疫富集区 / 交界免疫区）",
+        "#EB2DA1"
+      ]
+    ],
+    "url": "https://doi.org/10.1016/j.eururo.2023.11.008",
+    "paper_url": "https://doi.org/10.1016/j.eururo.2023.11.008",
+    "local": "L075",
+    "local_path": "BLCA/Beckabir_Eur. Urol-_2024_1.pdf"
+  },
+  {
+    "id": "nmibc-copy-number",
+    "paper": "An integrated multi-omics analysis identifies prognostic molecular subtypes of non-muscle-invasive bladder cancer",
+    "panel": "Fig. 2a · PDF p.5",
+    "type": "队列级拷贝数热图",
+    "method": "图面取样",
+    "note": "图例明确区分缺失、增益、平衡状态、等位基因不平衡及无改变，读者可把图例直接对应到各基因组位置。 热图右上角Copy number alteration (CNA)框内从上到下六个实心方块。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "Loss（缺失）",
+        "#245F9A"
+      ],
+      [
+        "High balanced loss",
+        "#010000"
+      ],
+      [
+        "Gain（增益）",
+        "#EC9915"
+      ],
+      [
+        "High balanced gain",
+        "#D10808"
+      ],
+      [
+        "Allelic imbalance w/o CNA",
+        "#7EAF7E"
+      ],
+      [
+        "No change（无改变）",
+        "#D8D6D3"
+      ]
+    ],
+    "url": "https://doi.org/10.1038/s41467-021-22465-w",
+    "paper_url": "https://doi.org/10.1038/s41467-021-22465-w",
+    "local": "L091",
+    "local_path": "BLCA/s41467-021-22465-w.pdf"
+  },
+  {
+    "id": "muscat-upset-classes",
+    "paper": "muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data",
+    "panel": "Fig. 3 · PDF p.6",
+    "type": "UpSet交集柱内的基因类别",
+    "method": "图面取样",
+    "note": "连接点阵表达方法交集，彩色柱段独立表达五种模拟基因类别，沿用论文对类别的缩写。 上方柱图右侧Gene category图例的五个方块。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "EE",
+        "#4069E0"
+      ],
+      [
+        "DE",
+        "#CC0000"
+      ],
+      [
+        "DP",
+        "#FF6346"
+      ],
+      [
+        "DM",
+        "#FFA500"
+      ],
+      [
+        "DB",
+        "#FFD700"
+      ]
+    ],
+    "url": "https://doi.org/10.1038/s41467-020-19894-4",
+    "paper_url": "https://doi.org/10.1038/s41467-020-19894-4",
+    "local": "L259",
+    "local_path": "scRNAseq/s41467-020-19894-4.pdf"
+  },
+  {
+    "id": "luad-km-groups",
+    "paper": "Single-cell spatial landscapes of the lung tumour immune microenvironment",
+    "panel": "Fig. 3e · PDF p.5",
+    "type": "患者高低分组的Kaplan–Meier曲线",
+    "method": "图面取样",
+    "note": "两组生存曲线与图例使用相同线色，样本数在组名旁直接标出。组色不表示风险方向。 e面板左图High (n=62)、Low (n=354)图例两条实线的中心，放大20倍以避开边缘。 在PDF的RGB渲染中，每个采样点取中心5×5像素。25像素一致。",
+    "colors": [
+      [
+        "High（高组）",
+        "#556EB8"
+      ],
+      [
+        "Low（低组）",
+        "#BB463C"
+      ]
+    ],
+    "url": "https://doi.org/10.1038/s41586-022-05672-3",
+    "paper_url": "https://doi.org/10.1038/s41586-022-05672-3",
+    "local": "L218",
+    "local_path": "s41586-022-05672-3.pdf"
+  },
+  {
+    "id": "Nakamura-ctDNA",
+    "paper": "Nakamura · Nature Medicine 2024",
+    "panel": "Fig. 2a",
+    "type": "作者脚本命名色，按 R 色名换算为 HEX",
+    "method": "代码原值",
+    "note": "ctDNA 阴性 blue #0000FF，阳性 red #FF0000。图中另有文字标签。参考的是脚本曲线颜色。",
+    "colors": [
+      [
+        "阴性",
+        "#0000FF"
+      ],
+      [
+        "阳性",
+        "#FF0000"
+      ]
+    ],
+    "url": "https://github.com/Natera-TMED/Nakamura-et-al_CIRCULATE-JP-Galaxy-2024/blob/9aea1b36d32e6749452f6aefb6d6eab7775a4a9a/CIRCULATE%20Galaxy%20Nakamura%20et%20al%202024.Rmd#L219-L231",
+    "paper_url": "https://www.nature.com/articles/s41591-024-03254-6"
+  },
+  {
+    "id": "OA-WGS–pQTL",
+    "paper": "WGS–pQTL · Nature Genetics 2025",
+    "panel": "Fig. 2a–e、3a,b",
+    "type": "原文图注色名",
+    "method": "图注色义",
+    "note": "Fig. 2 红线表示各类检验的 Bonferroni 阈值。Fig. 3 cognate 为红色圆点、noncognate 为蓝色方点。图注未给 HEX。",
+    "colors": [],
+    "url": "https://www.nature.com/articles/s41588-025-02095-4#Fig3",
+    "paper_url": "https://www.nature.com/articles/s41588-025-02095-4"
+  },
+  {
+    "id": "OA-scIB",
+    "paper": "scIB · Nature Methods 2022",
+    "panel": "Fig. 2a",
+    "type": "作者 R 脚本显式指定 ColorBrewer 名称",
+    "method": "作者指定色板名称",
+    "note": "总体分数 YlGnBu，批次校正 BuPu，生物学保持 RdPu。组内颜色编码排名，圆点大小编码得分。",
+    "colors": [],
+    "url": "https://github.com/theislab/scib-reproducibility/blob/3afbffd3674726e5146797be21cf6bd7470a2c5f/visualization/plotSingleTaskRNA.R#L170-L185",
+    "paper_url": "https://www.nature.com/articles/s41592-021-01336-8"
+  },
+  {
+    "id": "OA-CellRank",
+    "paper": "CellRank · Nature Methods 2022",
+    "panel": "Fig. 2b,e",
+    "type": "原文图注语义",
+    "method": "图注色义",
+    "note": "色相区分细胞宏状态或命运，颜色加深对应较高置信度或较高命运概率，b 中灰色细胞处于多个宏状态之间。",
+    "colors": [],
+    "url": "https://www.nature.com/articles/s41592-021-01346-6#Fig2",
+    "paper_url": "https://www.nature.com/articles/s41592-021-01346-6"
+  },
+  {
+    "id": "Squidpy-neighbourhood",
+    "paper": "Squidpy · Nature Methods 2022",
+    "panel": "Fig. 2e",
+    "type": "作者指定 Matplotlib 色图及数值范围；HEX 为色图取值换算",
+    "method": "作者指定色图换算",
+    "note": "coolwarm，Z 分数 −50 至 +50。低端 #3B4CC0，中点附近 #DDDCDC，高端 #B40426。数值范围按新数据另外确定。",
+    "colors": [
+      [
+        "低端",
+        "#3B4CC0"
+      ],
+      [
+        "中点附近",
+        "#DDDCDC"
+      ],
+      [
+        "高端",
+        "#B40426"
+      ]
+    ],
+    "url": "https://github.com/theislab/squidpy_reproducibility/blob/407b151c1b7d657dd46a99cd9d924b13ec2d9afa/notebooks/graph_figures/merfish.ipynb",
+    "paper_url": "https://www.nature.com/articles/s41592-021-01358-2"
+  },
+  {
+    "id": "OA-SCENIC+",
+    "paper": "SCENIC+ · Nature Methods 2023",
+    "panel": "Fig. 2g",
+    "type": "原文图注语义",
+    "method": "图注色义",
+    "note": "浅蓝至深蓝对应区域–基因连接的重要性由低到高，连接端点由位置而非颜色确定。",
+    "colors": [],
+    "url": "https://www.nature.com/articles/s41592-023-01938-4#Fig2",
+    "paper_url": "https://www.nature.com/articles/s41592-023-01938-4"
+  },
+  {
+    "id": "OA-染色质接触图",
+    "paper": "染色质接触图 · Nature Methods 2025",
+    "panel": "Fig. 3a",
+    "type": "原文图注",
+    "method": "图注色义",
+    "note": "紫色色阶对应每种方法跨窗口归一化后的分数。该尺度和相关热图中的相关系数分别解释。",
+    "colors": [],
+    "url": "https://www.nature.com/articles/s41592-025-02630-5#Fig3",
+    "paper_url": "https://www.nature.com/articles/s41592-025-02630-5"
+  },
+  {
+    "id": "OA-UK Biobank 血浆蛋白组",
+    "paper": "UK Biobank 血浆蛋白组 · Nature 2023",
+    "panel": "Fig. 2a,c",
+    "type": "原文图注色名",
+    "method": "图注色义",
+    "note": "红色表示 cis pQTL、蓝色表示 trans pQTL。同一映射用于二维基因组图及效应–频率图中的回归线。",
+    "colors": [],
+    "url": "https://www.nature.com/articles/s41586-023-06592-6#Fig2",
+    "paper_url": "https://www.nature.com/articles/s41586-023-06592-6"
+  }
+]
